@@ -1,0 +1,15 @@
+# Java
+*.class
+target/
+bin/
+out/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Node
+node_modules/
+dist/
