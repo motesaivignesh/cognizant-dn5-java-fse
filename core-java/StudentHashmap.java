@@ -25,7 +25,7 @@ public class StudentHashmap {
         }
 
         System.out.print("\nEnter Student ID to search: ");
-        int searchId = sc.nextInt();
+        int searchId = sc.nextInt();    
 
         if (students.containsKey(searchId)) {
             System.out.println("Student Name: " + students.get(searchId));
