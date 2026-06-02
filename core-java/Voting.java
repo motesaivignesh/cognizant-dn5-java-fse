@@ -14,7 +14,7 @@ public class Voting {
         if(age < 18) {
             throw new InvalidAgeException("Not eligible for voting");
         }
-
+        
         System.out.println("Eligible for voting");
     }
 
